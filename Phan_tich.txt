@@ -1,0 +1,13 @@
+Phân tích 
+  - Header #done
+  - Slider #done
+  - Content 
+    - About #done
+    - Tour #done
+    - Contact 
+    - Image 
+  
+  - Footer 
+Dựng base
+Xây dựng thành phần theo phân tích 
+Hoàn thiện 

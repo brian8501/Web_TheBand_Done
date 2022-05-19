@@ -1,0 +1,26 @@
+                                /* pc >=1024px
+   tablet >=740px <=1023px
+   mobile <=739px */
+                                
+                                @media(min-width:1024px) {
+                                    #header .mobile-menu-btn {
+                                        display: none;
+                                    }
+                                }
+                                
+                                @media(min-width:740px) and (max-width: 1023px) {
+                                    #header .mobile-menu-btn {
+                                        display: none;
+                                    }
+                                }
+                                
+                                @media(max-width:739px) {
+                                    #nav>li {
+                                        display: block
+                                    }
+                                    #header .search-btn {
+                                        float: right;
+                                        display: none;
+                                        cursor: pointer;
+                                    }
+                                }
